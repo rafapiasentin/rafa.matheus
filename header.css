@@ -6,3 +6,28 @@
     background-position: center;
     display: inline-block;
 }
+
+.cabeçalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: relative;
+}
+
+.container{    
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem{
+    padding: 1em;
+}
+
+.lista-menu{
+display: none;
+position: absolute;
+top: 100%;
+width: 60vw;
+}
+
